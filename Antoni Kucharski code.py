@@ -34,7 +34,3 @@ def sequences(seq_a: list[int], seq_b: list[int]) -> list[int]:
             seq_c.append(i)
     
     return seq_c
-
-
-if __name__ == '__main__':
-    print(sequences([2,3,9,2,5,1,3,7,10], [2,1,10,3,4,3,10,6,6,1,7,10,10,10]))
